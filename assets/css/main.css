@@ -2202,19 +2202,20 @@ button,
     -ms-flex-shrink: 0;
     flex-shrink: 0;
     display: block;
-    margin: 0 0 2em 4em;
+    margin: 0 0 0em 2em;
     width: 50%; }
     #banner .image img {
       height: 100%;
-      -moz-object-fit: cover;
-      -webkit-object-fit: cover;
-      -ms-object-fit: cover;
-      object-fit: cover;
+      -moz-object-fit: contain;
+      -webkit-object-fit: contain;
+      -ms-object-fit: contain;
+      object-fit: contain;
       -moz-object-position: center;
       -webkit-object-position: center;
       -ms-object-position: center;
       object-position: center;
       width: 100%; }
+
   @media screen and (orientation: portrait) {
     #banner {
       -moz-flex-direction: column-reverse;
@@ -2242,7 +2243,7 @@ button,
         -webkit-flex-shrink: 0;
         -ms-flex-shrink: 0;
         flex-shrink: 0;
-        margin: 0 0 4em 0;
+        margin: 0 0 1em 0;
         height: 25em;
         max-height: 50vh;
         min-height: 18em;
