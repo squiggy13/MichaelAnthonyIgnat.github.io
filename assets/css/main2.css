@@ -1186,7 +1186,7 @@ input[type="radio"] + label:before {
   border-radius: 0.375em;
   border: solid 1px rgba(210, 215, 217, 0.75);
   background-color: rgba(91, 130, 102, .25);
-  margin-bottom: 2em;
+  margin-bottom: .75em;
   padding: 1.5em; }
   .box > :last-child,
   .box > :last-child > :last-child,
@@ -1197,7 +1197,29 @@ input[type="radio"] + label:before {
     border-radius: 0;
     padding: 0; }
 
-/* Icon */
+/* -----------------------------------------------
+                    BOX
+-------------------------------------------------- */
+.box2 {
+  border-radius: 0.2em;
+  border: solid 0px rgba(210, 215, 217, 0.5);
+  /*background-color: rgba(91, 130, 102, .15);*/
+  background-color: transparent;
+  margin-bottom: .75em;
+  margin-top: 0em;
+  padding: .5em; }
+  .box2 > :last-child,
+  .box2 > :last-child > :last-child,
+  .box2 > :last-child > :last-child > :last-child {
+    margin-bottom: 0; }
+  .box.alt {
+    border: 0;
+    border-radius: 0;
+    padding: 0; }
+
+/* -----------------------------------------------
+                    ICONS
+-------------------------------------------------- */
 .icon {
   text-decoration: none;
   border-bottom: none;
@@ -1283,6 +1305,7 @@ ol {
   ol li {
     padding-left: 0.2em; }
 
+
 ul {
   list-style: disc;
   margin: 0 0 .8em 0;
@@ -1291,17 +1314,15 @@ ul {
     padding-left: 0.2em; }
 
   ul.alt {
-    list-style: none;
-    padding-left: 0; }
+    list-style: circle;
+    margin: 0.1em 0 .8em 0;
+    padding-left: 4em; }
     ul.alt li {
-      border-top: solid 1px rgba(210, 215, 217, 0.75);
-      padding: 0.5em 0; }
-      ul.alt li:first-child {
-        border-top: 0;
-        padding-top: 0; }
+      padding-left: 0.2em; }
+
 
 dl {
-  margin: 0 0 2em 0; }
+  margin: . 0 .25em 0; }
   dl dt {
     display: block;
     font-weight: 600;
