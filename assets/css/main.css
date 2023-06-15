@@ -1889,7 +1889,9 @@ button,
           .posts article:last-child:after {
             display: none; } }
 
-/* Wrapper */
+/* -----------------------------------------------
+                   WRAPPER
+-------------------------------------------------- */
 #wrapper {
   display: -moz-flex;
   display: -webkit-flex;
@@ -1901,7 +1903,9 @@ button,
   flex-direction: row-reverse;
   min-height: 100vh; }
 
-/* Main */
+/* -----------------------------------------------
+                   MAIN CONTENT
+-------------------------------------------------- */
 #main {
   -moz-flex-grow: 1;
   -webkit-flex-grow: 1;
@@ -1917,7 +1921,7 @@ button,
     margin: 0 auto;
     max-width: 110em; }
     #main > .inner > section {
-      padding: 2em 0 2em 0 ;
+      padding: 6em 0 4em 0 ;
       border-top: solid 2px rgba(210, 215, 217, 0.75); }
       #main > .inner > section:first-of-type {
         border-top: 0 !important; }
@@ -1925,17 +1929,17 @@ button,
     #main > .inner {
       padding: 0 5em 0.1em 5em ; }
       #main > .inner > section {
-        padding: 2em 0 3em 0 ; } }
+        padding: 5em 0 3em 0 ; } }
   @media screen and (max-width: 1280px) {
     #main > .inner {
       padding: 0 4em 0.1em 4em ; }
       #main > .inner > section {
-        padding: 2em 0 2em 0 ; } }
+        padding: 4em 0 2em 0 ; } }
   @media screen and (max-width: 736px) {
     #main > .inner {
       padding: 0 2em 0.1em 2em ; }
       #main > .inner > section {
-        padding: 1em 0 1em 0 ; } }
+        padding: 3em 0 1em 0 ; } }
 
 /* -----------------------------------------------
                    SIDEBAR
